@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  max-width: 680px;
+  margin: auto;
+  min-height: 100vh;
+  background: white;
+  padding: 40px 36px;
+}
+
+.app-header {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+p {
+  color: #777;
+}
+
+.green {
+  color: #099c63;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 45px 0;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stats b {
+  font-size: 20px;
+}
+
+.download {
+  width: 100%;
+  border: 0;
+  border-radius: 13px;
+  background: #0b9f5d;
+  color: white;
+  padding: 17px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.download small {
+  display: block;
+  margin-top: 8px;
+  font-weight: normal;
+}
+
+.actions {
+  display: flex;
+  gap: 35px;
+  margin: 30px 0;
+}
+
+.actions button {
+  border: 0;
+  background: none;
+  color: #079c65;
+  font-size: 18px;
+}
+
+.screenshots {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+}
+
+.screenshots img {
+  width: 175px;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+section {
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 25px;
+}
